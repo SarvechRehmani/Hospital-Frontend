@@ -1,0 +1,71 @@
+/* CSS Styles for the About Us Page */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-us {
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.about-us h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.about-us p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.about-us h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-us li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.leadership-card {
+    background-color: #7ddaff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.leader-image {
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.leadership-card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.leadership-card p {
+    font-size: 16px;
+    color: #555;
+}

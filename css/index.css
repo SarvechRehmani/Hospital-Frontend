@@ -1,0 +1,133 @@
+/* Additional styles for the hero section */
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    /* Adjust padding as needed */
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-subheading {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #0063a5;
+    border-radius: 15px;
+}
+
+
+
+/* CSS Styles for the Top Doctors Section */
+.top-doctors {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-doctors h2 {
+    font-size: 36px;
+    color: #3498db;
+    margin-bottom: 30px;
+}
+
+.doctor-card {
+    background-color: #fff;
+    padding: 20px;
+    height: 550px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.doctor-card:hover {
+    transform: translateY(-5px);
+}
+
+.doctor-image {
+    max-width: 400px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: #0063a5 solid 2px;
+}
+
+.doctor-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.doctor-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container2 h2 {
+    text-align: center;
+    margin: 20px;
+    color: #3498db;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container2 .d-flex .card {
+    width: 200px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    color: #3498db;
+}
+
+.container2 .d-flex a {
+    text-decoration: none;
+
+}
+
+.container2 .d-flex .card:hover {
+    transform: translateY(-5px);
+    background-color: #a2a2a2;
+    color: white;
+}

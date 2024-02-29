@@ -1,0 +1,134 @@
+/* NAVBAR */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* CSS Styles for the Navigation Bar */
+.navbar {
+background-color: #3498db;
+padding: 15px 0;
+transition: background-color 0.3s ease;
+}
+
+.container {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.logo {
+color: #fff;
+font-size: 24px;
+text-decoration: none;
+display: flex;
+align-items: center;
+}
+
+.logo-img {
+width: 50px; /* Adjust the size as needed */
+margin-right: 10px;
+}
+
+.nav-links {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: center; /* Center the navigation items */
+}
+
+.nav-links li {
+display: inline-block;
+
+
+}
+
+.nav-links a {
+text-decoration: none;
+color: #fff;
+font-size: 20px;
+transition: all 0.3s ease;
+position: relative;
+display: inline-block;
+padding: 10px 20px; /* Adjust padding as needed */
+border-radius: 15px;
+}
+
+.nav-links a:hover {
+color: #ecf0f1; /* Change color on hover */
+background-color: #0063a5;
+}
+
+/* Hover effect with a box */
+.nav-links a::before {
+content: '';
+position: absolute;
+bottom: -5px;
+left: 50%;
+transform: translateX(-50%);
+width: 0;
+height: 2px;
+background-color: #ecf0f1;
+transition: width 0.3s ease;
+}
+
+.nav-links a:hover::before {
+width: 100%;
+}
+
+
+
+/* FOOTER */
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    position: absolute;
+    width: 100%;
+}
+
+.footer-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.footer-card {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #2980b9;
+    border-radius: 5px;
+    list-style: none; /* Remove bullet points */
+}
+
+.footer-card h3 {
+    color: #fff;
+}
+
+.footer-card ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer-card li {
+    margin-bottom: 10px;
+    margin: 10px;
+}
+
+.footer-card a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-card a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.copyright {
+    color: #ecf0f1;
+}
